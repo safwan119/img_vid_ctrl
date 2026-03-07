@@ -13,6 +13,7 @@ class Routes{
         return MaterialPageRoute(builder: (context)=>PictureOverView());
       case RoutesName.videoShowingScreen:
         return MaterialPageRoute(builder: (context)=>VideoShowingScreen());
+        //default run when accidentally there is no route find
       default:
         return MaterialPageRoute(builder: (context){
           return Scaffold(
